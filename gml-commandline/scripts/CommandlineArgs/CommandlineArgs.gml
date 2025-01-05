@@ -129,6 +129,7 @@ function CommandlineArgs() constructor {
 	switches	= [];
 	options		= [];
 	commands	= [];
+	others		= [];
 	
 	for (var i = 1; i <= count; i++) {
 		var a = parameter_string(i);
@@ -137,7 +138,8 @@ function CommandlineArgs() constructor {
 		var cmd = __find_command(i, a);
 		if (cmd != undefined)	array_push(commands, cmd) else
 		if (__is_option(a))		array_push(options,  new __commandline_option(i, a)); else
-		if (__is_switch(a))		array_push(switches, new __commandline_switch(i, a));
+		if (__is_switch(a))		array_push(switches, new __commandline_switch(i, a)); else
+								array_push(others,   a);
 	}
 
 }

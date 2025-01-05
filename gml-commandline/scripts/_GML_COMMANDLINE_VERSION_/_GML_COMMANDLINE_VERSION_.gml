@@ -1,6 +1,6 @@
 // Feather ignore all in ./*
 
-#macro GML_COMMANDLINE_VERSION		"2409"
+#macro GML_COMMANDLINE_VERSION		"2501"
 #macro GML_COMMANDLINE_NAME			"gml-commandline "
 #macro GML_COMMANDLINE_COPYRIGHT	"(c)2024* coldrock.games, @Grisgram (github)"
 
