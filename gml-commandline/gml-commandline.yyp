@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"gml-commandline",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -13,6 +13,7 @@
     {"$GMFolder":"","%Name":"CommandLineArgs","folderPath":"folders/CommandLineArgs.yy","name":"CommandLineArgs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"commandline_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"commandline_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
